@@ -1,7 +1,8 @@
 Getting and Cleaning Data Course Project Code Book
 
 Original data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Data description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Original data description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The attached R script (run_analysis.R) performs the following steps to merge and clean up the data:
 
