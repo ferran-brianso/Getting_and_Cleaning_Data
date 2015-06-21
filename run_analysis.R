@@ -21,14 +21,17 @@
 tmpX1 <- read.table("UCI HAR Dataset/train/X_train.txt")
 tmpX2 <- read.table("UCI HAR Dataset/test/X_test.txt")
 X <- rbind(tmpX1, tmpX2)
+#dim(X)
 
 tmpS1 <- read.table("UCI HAR Dataset/train/subject_train.txt")
 tmpS2 <- read.table("UCI HAR Dataset/test/subject_test.txt")
 S <- rbind(tmpS1, tmpS2)
+#dim(S)
 
 tmpY1 <- read.table("UCI HAR Dataset/train/y_train.txt")
 tmpY2 <- read.table("UCI HAR Dataset/test/y_test.txt")
 Y <- rbind(tmpY1, tmpY2)
+#dim(Y)
 
 ## Removing temporal data
 rm(tmpX1)
@@ -87,6 +90,6 @@ for (s in 1:numSubs) {
   }
 }
 write.table(mergedAvg, "final_averages.txt", row.names = FALSE)
-mergedAvg[1:12, 1:5]
-dim(mergedAvg)
-mergedAvg[180, 1:5]
+#mergedAvg[1:12, 1:5]
+#dim(mergedAvg)
+#mergedAvg[180, 1:5]
