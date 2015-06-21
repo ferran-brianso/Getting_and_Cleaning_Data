@@ -1,4 +1,4 @@
-Getting and Cleaning Data Course Project Code Book
+#Getting and Cleaning Data Course Project Code Book
 
 Original data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -15,7 +15,7 @@ The attached R script (run_analysis.R) performs the following steps to merge and
 
 3.1* Reads activity labels from file "activity_labels.txt". 
 3.2* Cleans the activity labels without underscores '_' and as lower case.
-3.3* Renames the Y data set with these activity names.
+3.3* Renames the Y data set with these activity names: 'walking', 'walkingupstairs', 'walkingdownstairs', 'sitting', 'standing' and 'laying'.
 
 4.1* Merges X values, subjects and Y values into a tiny data set named (merged).
 4.2* Saves this data set as file "merged_data.txt" using function write.table.
