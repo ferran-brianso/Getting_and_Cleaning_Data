@@ -25,7 +25,7 @@ The attached R script (run_analysis.R) performs the following steps to merge and
 3.3* Renames the Y data set with these activity names: 'walking', 'walkingupstairs', 'walkingdownstairs', 'sitting', 'standing' and 'laying'.
 
 
-4.1* Merges X values, subjects and Y values into a tiny data set named (merged).
+4.1* Merges X values, subjects and Y values into a tiny data set named 'merged'.
 
 4.2* Saves this data set as file "merged_data.txt" using function write.table.
 
